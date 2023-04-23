@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: url("https://www.technocrazed.com/wp-content/uploads/2015/12/Blue-Wallpaper-For-Background-27.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.logo i {
+    color: rgb(255, 0, 0);
+    margin: 0 3px 0 0;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(15, 2, 255, 0.7);
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.box1 {
+    display: flex;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.container p {
+    position: relative;
+    font-size: 35px;
+    font-weight: 800;
+    background-color: rgba(0, 0, 139, 0.6);
+}
+
+.box2 button {
+    background-color: red;
+    color: #000;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 10px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+}
+
+.row1 td {
+    font-weight: 600;
+}
+
+.box2 button:hover {
+    background-color: rgba(15, 2, 255, 0.7);
+    color: #fff;
+}
+
+/* For Mobile */
+@media screen and (max-width:400px) {
+
+    .logo {
+        display: none;
+    }
+
+    .box2 {
+        height: 15%;
+    }
+
+    .box2 button:nth-child(3) {
+        display: block;
+        margin: 10px auto;
+    }
+
+}
